@@ -4,3 +4,7 @@ export interface IVideo {
   title: string;
   description: string;
 }
+
+export interface IVideoIdInRoute {
+  videoId: string;
+}
