@@ -8,3 +8,7 @@ export interface IVideo {
 export interface IVideoIdInRoute {
   videoId: string;
 }
+
+export interface IVotesByVideoId {
+  [videoId: string]: number;
+}
