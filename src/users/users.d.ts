@@ -4,3 +4,7 @@ export interface IUser {
   lastName: string;
   email: string;
 }
+
+export interface IUSerIdInRoute {
+  userId: string;
+}
